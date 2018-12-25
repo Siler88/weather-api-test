@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Try to get Weather API to work</title>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="firsthalfcontainer">
+            <header class="header">
+                <h1>just check the weather</h1>
+            </header>
+            <div class="formcontainer">
+                <form action="" method="GET" id= "form">
+                    <input id="costumtext" type="text" name="cityname" placeholder="City you want to check">    
+                    <button id="button" type="button" name="getstring" onclick="getCity()" >Send</button>
+                </form>
+            </div>
+        </div>
+        <div class="secondhalfcontainer">
+            <div class="picture"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+            <div class="data"></div>
+
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
