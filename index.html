@@ -9,10 +9,13 @@
 </head>
 <body>
     <div class="container">
-        <div class="firsthalfcontainer">
-            <header class="header">
-                <h1>just check the weather</h1>
+        <div id= "firsthalfcontainer" class="firsthalfcontainer">
+            <header id="header" class="header">
+                <h1>just check the weather of</h1>
             </header>
+            <div id="citycontainer">
+                <h1 id= "cityname">...</h1><div id="imgplaceholder"></div>
+            </div>
             <div class="formcontainer">
                 <form action="" method="GET" id= "form">
                     <input id="costumtext" type="text" name="cityname" placeholder="City you want to check">    
@@ -21,14 +24,10 @@
             </div>
         </div>
         <div class="secondhalfcontainer">
-            <div class="picture"></div>
-            <div class="data"></div>
-            <div class="data"></div>
-            <div class="data"></div>
-            <div class="data"></div>
-            <div class="data"></div>
-            <div class="data"></div>
-            <div class="data"></div>
+            <div id="coord" class="data"></div>
+            <div id="weatherstatus" class="data"></div>
+            <div id="temp" class="data"></div>
+            <div id= "windspeed" class="data"></div>
 
         </div>
     </div>
